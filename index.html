@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Garden for Sayang ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="gift-overlay">
+        <div class="gift-container" onclick="unwrapGift()">
+            <div class="gift-box">
+                <div class="lid"><span></span></div>
+                <div class="box"></div>
+            </div>
+            <h2 class="gift-text">For My Favorite Person... <br><span>(Tap to unwrap)</span></h2>
+        </div>
+    </div>
+
+    <canvas id="confetti"></canvas>
+
+    <main id="main-content" class="hidden">
+        <section class="page center">
+            <div class="reveal">
+                <p class="date-tag">February 17, 2026</p>
+                <h1 class="hero-title">Happy Birthday, <br>My Sayang 🌸</h1>
+                <div class="scroll-down">↓ scroll through our garden ↓</div>
+            </div>
+        </section>
+
+        <section class="page">
+            <div class="reveal">
+                <div class="polaroid">
+                    <img src="images/memory1.jpeg" alt="Memory 1">
+                    <p class="caption">The first bloom of us...</p>
+                </div>
+                <h2 class="romantic-text">Like a flower, my love for you grows more beautiful every single day.</h2>
+            </div>
+        </section>
+
+        <section class="page">
+            <div class="reveal">
+                <div class="polaroid rotate-right">
+                    <img src="images/memory2.jpeg" alt="Memory 2">
+                    <p class="caption">Sunsets and smiles.</p>
+                </div>
+                <h2 class="romantic-text">You are the light that makes my garden grow. Thank you for being you.</h2>
+            </div>
+        </section>
+
+        <section class="page">
+            <div class="reveal letter-card">
+                <h3 class="cursive">To My Dearest Sayang,</h3>
+                <p>Happy Birthday! I wanted to give you a garden that never fades. You make my life so colorful and bright.</p>
+                <p>I love you more than all the flowers in the world. This is your day, but you are the greatest gift I have ever received.</p>
+                <p class="signature">Forever yours.</p>
+            </div>
+        </section>
+
+        <section class="page final-page">
+            <div class="reveal">
+                <div class="polaroid">
+                    <img src="images/dinner.jpeg" alt="Final Dinner">
+                </div>
+                <h1 class="hero-title">I Love You Forever ❤️</h1>
+                <p class="sub-text">Happy Birthday, Beautiful.</p>
+            </div>
+            <div class="flower-meadow"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
